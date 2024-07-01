@@ -1,6 +1,8 @@
 // ignore_for_file: use_super_parameters, prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:travel_app/pages/detail_page.dart';
+import 'package:travel_app/pages/navpages/book_now_page.dart';
 import 'package:travel_app/pages/navpages/login_page.dart';
 import 'package:travel_app/pages/welcome_page.dart';
 
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Travel App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.blue),
       home: WelcomePage(),

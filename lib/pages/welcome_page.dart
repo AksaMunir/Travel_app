@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:travel_app/misc/colors.dart';
-import 'package:travel_app/pages/home_page.dart';
 import 'package:travel_app/pages/navpages/login_page.dart';
 import 'package:travel_app/widgets/app_large_text.dart';
 import 'package:travel_app/widgets/app_text.dart';
