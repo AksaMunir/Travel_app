@@ -393,9 +393,6 @@ class _BookNowState extends State<BookNow> {
                         ),
                       ),
                     ),
-                    SizedBox(
-                      height: 20,
-                    ),
                   ],
                 ),
               ),

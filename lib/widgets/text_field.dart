@@ -6,6 +6,7 @@ class InputText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var screenSize = MediaQuery.of(context).size;
     return TextField(
       decoration: InputDecoration(
         hintText: hint,
@@ -14,7 +15,7 @@ class InputText extends StatelessWidget {
           borderRadius: BorderRadius.circular(12.0), // Rounded corners
           borderSide: BorderSide(
             color: Colors.grey,
-            width: 1.0, // Border width
+            width: screenSize.width * 0.01, // Border width
           ),
         ),
       ),
